@@ -1,7 +1,7 @@
 # Angular-nvD3
 
 [![Build Status](https://travis-ci.org/pertrai1/angular-nvd3-charts.svg?branch=master)](https://travis-ci.org/pertrai1/angular-nvd3-charts)
-[![NPM Version](http://img.shields.io/npm/v/angular-nvd3.svg?style=flat)](https://www.npmjs.org/package/angular-nvd3)
+[![NPM Version](http://img.shields.io/npm/v/angular-nvd3-charts.svg?style=flat)](https://www.npmjs.org/package/angular-nvd3)
 
 Angular nvd3 charts is designed to make it easier to work with [nvd3.js](https://github.com/novus/nvd3) re-usable charting library. This directive allows you to easily customize your charts via JSON API.
 
