@@ -10,7 +10,7 @@ Try it [online](http://pertrai1.github.io/angular-nvd3-charts/).
 
 ##### npm
 
-    $ npm install angular-nvd3
+    $ npm install angular-nvd3-charts
 
 ##### download
 
