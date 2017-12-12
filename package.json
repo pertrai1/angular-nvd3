@@ -1,7 +1,7 @@
 {
   "title": "AngularJS-nvD3-charts",
   "name": "angular-nvd3-charts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An AngularJS directive for NVD3.js reusable charting library",
   "homepage": "http://pertrai1.github.io/angular-nvd3-charts",
   "repository": {

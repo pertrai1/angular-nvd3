@@ -1,6 +1,6 @@
 /**************************************************************************
-* AngularJS-nvD3, v1.0.9; MIT
-* http://krispo.github.io/angular-nvd3
+* AngularJS-nvD3-charts, v1.0.3; MIT
+* http://pertrai1.github.io/angular-nvd3
 **************************************************************************/
 (function(window){
 
@@ -285,6 +285,10 @@
                             // remove tooltip if exists
                             if (scope.chart && scope.chart.tooltip && scope.chart.tooltip.id) {
                                 d3.select('#' + scope.chart.tooltip.id()).remove();
+                            }
+
+                            if (scope.chart && scope.chart.interactiveLayer && scope.chart.interactiveLayer.tooltip && scope.chart.interactiveLayer.tooltip.id) {
+                                d3.select('#' + scope.chart.interactiveLayer.tooltip.id()).remove();
                             }
 
                             // To be compatible with old nvd3 (v1.7.1)
