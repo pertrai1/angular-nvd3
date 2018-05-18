@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/pertrai1/angular-nvd3-charts.svg?branch=master)](https://travis-ci.org/pertrai1/angular-nvd3-charts)
 [![NPM Version](http://img.shields.io/npm/v/angular-nvd3-charts.svg?style=flat)](https://www.npmjs.org/package/angular-nvd3)
 
+This is the ["official"](https://github.com/krispo/angular-nvd3/pull/728) fork of [krispo's Angular nvd3](https://github.com/krispo/angular-nvd3).
+
 Angular nvd3 charts is designed to make it easier to work with [nvd3.js](https://github.com/novus/nvd3) re-usable charting library. This directive allows you to easily customize your charts via JSON API.
 
 The key feature is that the original hierarchical structure of nvd3 models is completely preserved in directive JSON structure. This means that while you creating a complex chart that containing multiple elementary chart models (such as `line`, `bar`, `axis`, ...), you can in turn customize the properties of each internal elementary models as well as the global charting properties the way you want. This can be done as usual, but it becomes quite easily to customize while applying JSON approach to.
